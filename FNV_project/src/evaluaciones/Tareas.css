@@ -1,0 +1,54 @@
+.tareas-container-gral button{
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.tareas-container{
+  border-bottom: 1.25px solid black;
+  border-top: 1.25px solid black;
+}
+
+.tarea {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+}
+
+.tareas-text-input{
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: white;
+  cursor: text;
+  transition: border-color 0.25s;
+  margin-right: 10px;
+}
+
+.tareas-button{
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: white;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.tarea ul{
+  padding: 15px;
+}
+
+.tarea p{
+  text-align: justify;
+  max-width: 477px;
+}

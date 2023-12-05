@@ -1,0 +1,14 @@
+.vista-perfil h3, .vista-perfil h2{
+    text-align: left;
+}
+
+.vista-perfil ul{
+    padding: 15px;
+  }
+
+.info-perfil{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    align-items: center;
+  }

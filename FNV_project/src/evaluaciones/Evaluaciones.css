@@ -1,0 +1,9 @@
+.botones-evaluaciones {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+
+.evaluaciones-desplegables h2, .evaluaciones-desplegables h3, .evaluaciones-desplegables u{
+    text-align: left;
+}

@@ -1,0 +1,54 @@
+.ins-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .ins-button-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  
+  .ins-button {
+    background-color: #83864f;
+    color: #fff;
+    padding: 40px 80px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 30px;
+    font-size: 15px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ins-button:hover {
+    background-color: #c7d44a;
+    color: #fff;
+  }
+  
+  .ins-text-container {
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 100px 200px;
+    width: 700px;
+    font-size: 18px;
+    background-color: #fff;
+    border-radius: 50px;
+  }
+
+  .ins-text{
+    font-size: 18px;
+    align-self: center;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  

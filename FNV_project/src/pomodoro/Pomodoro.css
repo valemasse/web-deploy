@@ -1,0 +1,9 @@
+.container-pomodoro{
+    display: flex;
+}
+
+.contador-pomodoro{
+    margin-left: auto;
+    /*margin-top: 25%;
+    margin-bottom: 0%;*/
+}

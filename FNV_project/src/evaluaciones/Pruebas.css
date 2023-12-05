@@ -1,0 +1,40 @@
+.pruebas-container{
+  border-bottom: 1.25px solid black;
+  border-top: 1.25px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+  align-items: center;
+}
+
+.pruebas {
+  margin-left: 10px;
+}
+
+.pruebas-text-input{
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: white;
+  cursor: text;
+  transition: border-color 0.25s;
+  margin-right: 10px;
+}
+
+.pruebas-button{
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: white;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: black;
+}
+
+.pruebas h3 {
+  text-align: left;
+}

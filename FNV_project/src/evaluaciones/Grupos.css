@@ -1,0 +1,40 @@
+.trabajos-container-titulo{
+    border-bottom: 1.25px solid black;
+}
+
+.trabajos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    align-items: center;
+}
+
+.card-trabajos {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+  }
+  
+  .card-trabajos:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container-card-trabajos {
+    padding: 2px 16px;
+  }
+
+  .container-imagen-card-trabajos {
+    width: 100%;
+    height: 0;
+    padding-bottom: 75%;
+    position: relative;
+    overflow: hidden;
+    }
+
+.imagen-card-trabajos {
+    width: 308px;
+    height: 231px;
+    object-fit: cover;
+}

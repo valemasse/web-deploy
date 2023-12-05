@@ -1,0 +1,18 @@
+.vista-ramo h3{
+    text-align: left;
+}
+
+.vista-ramo ul{
+    padding: 15px;
+  }
+
+.info-ramo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    align-items: center;
+  }
+  
+/*.pruebas {
+    margin-left: 10px;
+  }*/
